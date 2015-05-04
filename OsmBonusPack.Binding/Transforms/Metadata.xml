@@ -1,0 +1,26 @@
+﻿<metadata>
+  <attr path="/api/package[@name='org.osmdroid.bonuspack.kml']/class[@name='KmlDocument']" name="visibility">public</attr>
+<attr path="/api/package[@name='org.osmdroid.bonuspack.routing']/class[@name='RoadLink']" name="visibility">public</attr>
+<attr path="/api/package[@name='org.osmdroid.bonuspack.kml']/class[@name='KmlFeature']" name="visibility">public</attr>
+<attr path="/api/package[@name='org.osmdroid.bonuspack.kml.KmlFeature']" name="visibility">public</attr>
+<attr path="/api/package[@name='org.osmdroid.bonuspack.overlays']/class[@name='MapEventsOverlay']/method[@name='draw']" name="visibility">public</attr>
+<attr path="/api/package[@name='org.osmdroid.bonuspack.clustering']/class[@name='MarkerClusterer']/method[@name='draw']" name="visibility">public</attr>
+<attr path="/api/package[@name='org.osmdroid.bonuspack.overlays']/class[@name='FolderOverlay']/method[@name='draw']" name="visibility">public</attr>
+<attr path="/api/package[@name='org.osmdroid.bonuspack.overlays']/class[@name='GroundOverlay']/method[@name='draw']" name="visibility">public</attr>
+<attr path="/api/package[@name='org.osmdroid.bonuspack.overlays']/class[@name='Polygon']/method[@name='draw']" name="visibility">public</attr>
+<attr path="/api/package[@name='org.osmdroid.bonuspack.overlays']/class[@name='Polyline']/method[@name='draw']" name="visibility">public</attr>
+
+<!--<attr path="/api/package[@name='org.osmdroid.bonuspack.cachemanager']/class[@name='CacheManager.CleaningTask']/method[@name='DoInBackground' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">
+</attr> 
+
+<attr path="/api/package[@name='org.osmdroid.bonuspack.cachemanager']/class[@name='CacheManager.DownloadingTask']/method[@name='DoInBackground' and count(parameter)=1 and parameter[1][@type='int']]" name="managedReturn">
+</attr> -->
+
+<remove-node path="/api/package[@name='org.osmdroid.bonuspack.cachemanager']/class[@name='CacheManager.CleaningTask']" />
+<remove-node path="/api/package[@name='org.osmdroid.bonuspack.cachemanager']/class[@name='CacheManager.DownloadingTask']" />
+
+<remove-node path="/api/package[@name='com.google.gson.internal']" />
+<remove-node path="/api/package[@name='com.google.gson.internal.bind']" />
+<remove-node path="/api/package[@name='com.google.gson']/class[@name='JsonStreamParser']" />
+
+</metadata>
